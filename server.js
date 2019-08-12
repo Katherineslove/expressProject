@@ -10,6 +10,8 @@ app.use(function(req, res, next) {
 
 app.use(express.static('./public'))
 
+
+//    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 app.use('/bootstrap', express.static(path.join(__dirname, 'node_modules/bootstrap/dist')));
 
 // app.get('/', (req, res) => res.send('This is the home page'));
