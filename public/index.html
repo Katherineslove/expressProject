@@ -5,21 +5,32 @@
     <title>Home Page</title>
 
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <h1>This is our Home Page from index.html</h1>
-    <a href="about.html">This is to our about page</a>
+    <div class="container">
+      <h1>This is our Home Page from index.html</h1>
+      <a href="aboutProject">This is to our about page</a>
+
+      <form class="" action="sendForm" method="get">
+        <label for="">username</label>
+        <input type="text" name="username" value="" class="form-control">
+        <label for="">firstName</label>
+        <input type="text" name="firstName" value="" class="form-control">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+        <br><br><br><br>
+
+      <input id="male" class="btn btn-primary" type="button" name="gender" value="male">
+      <input id="female" class="btn btn-primary" type="button" name="gender" value="female">
 
 
-    <form class="" action="sendForm" method="post">
-      <input type="text" name="username" value="" class="form-control">
-      <input type="text" name="firstName" value="" class="form-control">
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
+    </div>
 
-    <img src="images/rose-blue-flower-rose-blooms-67636.jpeg" alt="">
-
+    <script src="jquery/jquery.js" charset="utf-8"></script>
+    <script src="popper/popper.min.js" charset="utf-8"></script>
     <script src="bootstrap/js/bootstrap.min.js" charset="utf-8"></script>
     <script src="js/script.js" charset="utf-8"></script>
   </body>
